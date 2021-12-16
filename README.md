@@ -26,7 +26,7 @@ Click [here](https://medico-store.azurewebsites.net/) to run the hosted version 
 
 1. Clone this repository
 
-1. On the command line, navigate (cd) to the **mdeco-store** folder
+1. On the command line, navigate (cd) to the **medico-store** folder
 
 1. Install the server dependencies
 
@@ -38,10 +38,9 @@ Click [here](https://medico-store.azurewebsites.net/) to run the hosted version 
 
   ```
   npm run start2
-  
   ```
 
-1. Open a browser and access: [http://localhost:5000](http://localhost:5050)
+1. Open a browser and access: [http://localhost:5050](http://localhost:5050)
 
 
 # Some credential for testing purpose only
