@@ -17,9 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 mongoose
   .connect(
     process.env.MONGODB_URL ||
-      // "mongodb+srv://jobp_user:jobp123@cluster0.xghz9.mongodb.net/medico?retryWrites=true&w=majority",
-      "mongodb://medico:UOFnYyIf1NmVhECuVRDU7n95eKZFZ0KFSF4SRel8TlhS6m60eCprPTl6sA8YK1PQHvl3g60FHrYLl2Wx50NcSA==@medico.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@medico@",
-    {
+      "COnnection will here",{
       useNewUrlParser: true,
       useUnifiedTopology: true,
     }
